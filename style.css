@@ -1,0 +1,257 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+	{
+		background-color: black; 
+		font-family: monospace;
+	}
+h1
+	{
+		font-weight: 500; 
+		text-shadow: 2px 2px fuchsia; 
+		text-decoration: overline;
+		font-size: 60px;
+		animation-name: tranzitietext;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+h2
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		text-align: center;
+		color: cyan; 
+		text-shadow: 2px 2px fuchsia;
+	}
+h3
+	{
+		font-weight: 200; 
+		font-size: 25px;
+		padding-bottom: 50px;
+	}
+h4
+	{
+		padding-top: 20px; 
+		color: fuchsia; 
+	}
+h5
+	{
+		text-shadow: 2px 2px fuchsia; 
+		font-size: 50px; 
+		color: cyan;
+	}
+p
+	{
+		padding-top: 10px; 
+		color: white;
+	}
+nav img
+	{
+		width: 50px;
+	}
+nav span
+	{
+		padding-left: 22px; 
+		font-size: 22px; 
+		font-weight: 500; 
+		text-shadow: 2px 2px fuchsia;
+	}
+.nav-item
+	{
+		padding-right: 25px;
+		color: whitesmoke;
+	}
+.bara
+	{
+		padding-top: 5px; 
+		background-color: fuchsia;
+		animation-name: tranzitie;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+.baran
+	{
+		padding-top: 25px;
+		background-color: black;
+	}
+@keyframes tranzitie
+	{
+		0% {background-color: fuchsia;}
+		50% {background-color: cyan;}
+		100% {background-color: fuchsia;}
+	}
+@keyframes tranzitietext
+	{
+		0% {color: fuchsia;}
+		50% {color: cyan;}
+		100% {color: fuchsia;}
+	}
+.dot
+	{
+		font-size: 40px; 
+		color: cyan;
+		animation-name: tranzitietext;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+div.datafest
+	{
+		color: fuchsia;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+@media screen and (min-width: 1000px)
+	{
+		div.datafest
+			{
+				font-size: 98px;
+			}
+	}
+@media screen and (max-width: 1000px)
+	{
+		div.datafest
+			{
+				font-size: 50px;
+			}
+	}
+@media screen and (min-width: 1000px)
+	{
+		h2
+			{
+				font-size: 45px;
+			}
+	}
+@media screen and (max-width: 1000px)
+	{
+		h2
+			{
+				font-size: 30px;
+			}
+	}
+@media screen and (min-width: 1000px)
+	{
+		h4
+			{
+				font-size: 35px;
+			}
+	}
+@media screen and (max-width: 1000px)
+	{
+		h4
+			{
+				font-size: 25px;
+			}
+	}
+@media screen and (min-width: 1000px)
+	{
+		p
+			{
+				font-size: 17px;
+			}
+	}
+@media screen and (max-width: 1000px)
+	{
+		p
+			{
+				font-size: 14px;
+			}
+	}
+.row
+	{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+.card-button
+	{
+		cursor: pointer;
+		color: white;
+		padding: 10px;
+		width: 100%;
+		background-color: black;
+		border-radius: 25px;
+		border-width: 3px;
+		border-color: fuchsia;
+		font-size: 17px;
+	}
+.active, .card-button:hover
+	{
+		background-color: fuchsia;
+	}
+.panel
+	{
+		display: none;
+		overflow: hidden;
+		color: white;
+		font-size: 17px;
+	}
+.lineup h4
+	{
+		color: white;
+		text-shadow: 2px 2px fuchsia;
+		animation-name: tranzitietext;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+.lineup p
+	{
+		font-size: 20px;
+	}
+.card-wrap:hover
+	{
+		border: 5px solid fuchsia;
+	}
+.card-wrap img
+	{
+		width: 100%;
+	}
+.bil .card-body
+	{
+		border-style: solid;
+		border: 5;
+		border-color: fuchsia;
+		width: 100%;
+		height: 300px;
+	}
+.bil h4
+	{
+		padding-top: 50px;
+	}
+.bil p
+	{
+		font-size: 25px;
+	}
+.reducere
+	{
+		text-decoration: line-through;
+		color: fuchsia;
+		padding-top: 50px;
+	}
+.slogan h3
+	{
+		font-size: 50px;
+		text-decoration: line-through;
+		text-shadow: 2px 2px fuchsia;
+		animation-name: tranzitietext;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+.con img
+	{
+		width: 20%;
+	}
+.con .card-wrap:hover
+	{
+		border: 0;
+	}
+.con p
+	{
+		font-size: 15px;
+	}
+.copy
+	{
+		text-align: right;
+	}
